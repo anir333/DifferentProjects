@@ -1,0 +1,49 @@
+/*.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+   /* background-image: url(capçalerafotodefons.jpg); 
+    width: 100%;
+    height: 140px;   */
+header {
+    display: flex;
+    padding-bottom: 40px;
+    background-image: url(capçalerafotodefons.jpg);
+    border: 0px solid blue;
+    margin: -10px -10rem 0 -10rem;
+    padding: 20px 0 50px 0;
+}
+header p {
+    flex-basis: 50%;
+    text-align: left;
+    margin: 40px 0 0 200px;
+}
+.nameinheader {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.undernameinheader {
+    font-family: "Poppins Extra Light";
+}
+nav {
+    flex-basis: 50%;
+    text-align: right;
+    margin: 33px 200px 0 0;
+
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 1.5rem;
+    font-size: 18px;
+    font-family: "Poppins Extra Light";
+    color: black;
+}
+section {
+    margin: 3rem 7rem;
+    text-align: justify;
+}
+.introduction {
+    font-family: "Raleway";
+    font-size: 27px;
+}
